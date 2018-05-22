@@ -261,6 +261,17 @@ footer {
 main {
   padding: 2rem 0; }
 
+.bulleted-list, #grocery-list {
+  list-style: circle !important;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  line-height: 1; }
+  .bulleted-list li, #grocery-list li {
+    list-style: circle !important;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    line-height: 1; }
+
 .container {
   width: 80%;
   max-width: 900px;
@@ -277,5 +288,9 @@ main {
 button.secondary {
   background: darkgray;
   color: white; }
+
+.grocery-list-item {
+  display: block !important;
+  list-style: initial !important; }
 
 /*# sourceMappingURL=style.css.map */

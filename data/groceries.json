@@ -1,0 +1,38 @@
+[
+  {
+    "id" : 1,
+    "item" : "bananas",
+    "qty" : 4,
+    "price": "$4.25"
+  },
+  {
+    "id": 2,
+    "item": "milk",
+    "qty": "1 qrt",
+    "price": "$1.75"
+  },
+  {
+    "id": 3,
+    "item": "coffee",
+    "qty": "12 kcups",
+    "price": "$10.50"
+  },
+  {
+    "id": 4,
+    "item": "bread",
+    "qty": "1 loaf",
+    "price": "$3.99"
+  },
+  {
+    "id": 5,
+    "item": "eggs",
+    "qty": 12,
+    "price": "$5.12"
+  },
+  {
+    "id": 6,
+    "item": "paper towel roll",
+    "qty": 4,
+    "price": "$6.10"
+  }
+]

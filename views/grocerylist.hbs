@@ -1,0 +1,17 @@
+<section>
+  <div class="container">
+    <h2>{{title}}</h2>
+    <p>These are the items in the current {{title}}: </p>
+
+    <ul id="grocery-list">
+
+
+      {{#each jsondata}}
+        <li class="grocery-list-item">{{this.item}}</li>
+      {{/each}}
+
+    </ul>
+
+    <hr>
+  </div>
+</section>
